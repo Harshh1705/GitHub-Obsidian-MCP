@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "GitHubServer": {
+      "command": "<PATH_TO_YOUR_PYTHON_EXECUTABLE>",
+      "args": [
+        "<ABSOLUTE_PATH_TO_YOUR_PROJECT_FOLDER>\\Github_Server.py"
+      ],
+      "env": {
+        "GITHUB_TOKEN": "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN_HERE"
+        
+      }
+    },
+    "ObsidianServer": {
+      "command": "<PATH_TO_YOUR_PYTHON_EXECUTABLE>",
+      "args": [
+        "<ABSOLUTE_PATH_TO_YOUR_PROJECT_FOLDER>\\Obsidian_Server.py"
+      ],
+      "env": {
+        "VAULT_PATH": "<ABSOLUTE_PATH_TO_YOUR_OBSIDIAN_VAULT>"
+        
+      }
+    }
+  }
+}
